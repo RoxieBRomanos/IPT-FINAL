@@ -1,0 +1,36 @@
+#left{
+        justify-content:flex-end;
+}
+#right{
+        justify-content: flex-start!important;
+}
+.Of{
+        justify-content:flex-end;
+        width:0!important;
+        visibility: hidden;
+}
+#Of{
+        width: 0;
+}
+.On{
+        width: 100%!important;
+}
+
+/*--------------------------------*/
+
+#lorem{
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        height: 100vh;
+        justify-content: center;
+}
+#lorem p{
+        background: #404040;
+        box-shadow: 0 15px 18px -10px black;
+        font-size: 1.1em;
+        margin: 1em;
+        padding: 1.5em;
+        width: 25em;
+}
+
