@@ -1,0 +1,14 @@
+#welcome div:hover{
+  text-shadow:0 0 1px white,
+              0 0 0 black;
+}
+#welcome div{
+        align-items:center;
+        background:#333;
+        box-shadow: 0 0 100px black;
+        cursor:pointer;
+        display:flex;
+  font-size:5em;
+        font-weight:bold;
+        width:50%;
+}
